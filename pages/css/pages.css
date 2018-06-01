@@ -14,7 +14,8 @@ body {
     -moz-osx-font-smoothing: grayscale;
     color: #333;
     line-height: 1.5em;
-    padding: 25px;
+    background-color: #EEE;
+    border-right: 2px black solid;
 }
 
 img {
@@ -23,8 +24,57 @@ img {
 
 /* Voeg jouw css hieraan toe */
 
-h1{
-    margin: 0 auto;
-    padding: 2% 0;
+/*Fonts*/
+@font-face {
+    font-family: 'band';
+    src: url('../fonts/band.ttf');
+}
+
+/*Introductie*/
+#contain1{
     background-color: rgb(15, 15, 15);
+    width: 70%;
+    margin: 5% 15%;
+    padding-bottom: 5%;
+    padding-top: 3%;
+}
+.nmd{
+    text-align: center;
+    padding: 2% 0;
+    background-color: #0f0f0f;
+    color:#d17b60;
+    font-family: 'band';
+}
+
+h1, h2, a, h3{
+    font-family: 'band';
+    color:#d17b60;
+}
+
+p, .info, ul{
+    color: #EEE;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+h1, h2{
+    padding: 2% 9%;
+    border-bottom: 1px #EEE solid;
+    border-top: 1px #EEE solid;
+}
+
+h3{
+    padding: 2% 9%;
+}
+
+.info dt, h3{
+    font-weight: bold;
+}
+
+/*concurrentieanalyse*/
+img{
+    height: 350px;
+}
+figure{
+    padding-top: 3%;
 }
